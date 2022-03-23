@@ -442,3 +442,49 @@ nav{
     grid-row: 2/4;
     background-color: red;
 }
+
+
+@media(max-width: 2560px){
+    #features{
+        justify-content: center;
+    }
+    .discover-head p{
+        padding-left: 426px;
+    }
+    #ghadi{
+        margin-top: 60px;
+        padding: 80px;
+    }
+}
+
+
+@media(max-width: 1440px){
+    .discover-head p{
+        padding: 0px;
+        margin-left: -100px;
+    }   
+}
+
+@media(max-width: 1024px){
+    #feature-2{
+        background-size: contain;
+    }
+    .discover-head{
+        padding: 0px 146px;
+    } 
+    .main-child p{
+        font-size: 15px;
+    }
+    #ghadi{
+        padding: 23px;
+    }
+    #ghadi > div{
+        width: 470px;
+    }
+    #ghadi-2 p{
+        font-size: 40px;
+    }
+    #environment{
+        padding: 100px 127px;
+    }
+}
